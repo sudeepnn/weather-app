@@ -1,7 +1,7 @@
 const weatherInfo = document.getElementById('weatherInfo');
 weatherInfo.classList.add('hide')
 function getWeather() {
-    const apiKey = my_api_key;
+    const apiKey = ${{vars.MY_API_KEY}};
     const cityInput = document.getElementById('cityInput').value;
     const weatherInfo = document.getElementById('weatherInfo');
     weatherInfo.classList.add('hide')
